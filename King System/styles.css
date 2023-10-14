@@ -1,0 +1,64 @@
+/* Estilo para el menú en la esquina superior izquierda */
+nav {
+    background-color: #336699; /* Color de fondo del menú */
+    border-top-left-radius: 50px; /* Hace que la esquina superior izquierda sea redonda */
+    border-top-right-radius: 50px; /* Hace que la esquina superior derecha sea redonda */
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Usamos flexbox para alinear los elementos horizontalmente */
+    margin: 0; /* Eliminamos el margen predeterminado de la lista */
+    background-color: #336699; /* Color de fondo del menú */
+    border-top-left-radius: 50px; /* Hace que la esquina superior izquierda sea redonda */
+    border-top-right-radius: 50px; /* Hace que la esquina superior derecha sea redonda */
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+    background-color: #336699; /* Color de fondo de cada opción del menú */
+    border: 2px solid #fff; /* Bordes alrededor de cada opción del menú */
+    border-radius: 5px; /* Bordes redondeados para los botones */
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff; /* Texto blanco */
+  }
+  
+  /* Cambiamos el color al pasar el ratón por encima */
+  nav ul li a:hover {
+    background-color: #fff;
+    color: #336699;
+  }
+  
+  /* Estilo para la sección de bienvenida */
+  #bienvenida {
+    background-color: #c7ffbe; /* Fondo verde manzana claro */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Estilo para el encabezado */
+  header {
+    background-color: #b2a2ff; /* Fondo azul lila claro */
+    padding: 10px 0;
+    border-top-left-radius: 50px; /* Hace que la esquina superior izquierda sea redonda */
+    border-top-right-radius: 50px; /* Hace que la esquina superior derecha sea redonda */
+  }
+  
+  /* Estilo para la marca de agua en el pie de página */
+  .marca-agua {
+    background-color: #b2a2ff; /* Fondo azul lila claro */
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: #000; /* Color de texto negro (negrita) */
+    font-weight: bold; /* Texto en negrita */
+  }
+  

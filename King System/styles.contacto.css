@@ -1,0 +1,44 @@
+/* Estilos para centrar el formulario y otros ajustes */
+
+/* Centrar el formulario en la mitad de la página */
+.contact-form {
+    margin: 0 auto;
+    width: 50%; /* Ajusta este valor según tus preferencias */
+    text-align: center;
+  }
+  
+  .form-element {
+    margin: 10px 0;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  /* Añadir un poco de espacio entre los iconos y el texto */
+  .icon {
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para los iconos de Facebook y YouTube */
+  .icon img {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+  }
+  
+  /* Cambiar el estilo del botón */
+  button[type="submit"] {
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Otras reglas de estilo según tus preferencias */
+  
